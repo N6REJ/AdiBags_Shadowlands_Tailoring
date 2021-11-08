@@ -17,10 +17,11 @@ db.Filters = {
         uiDesc = "Reagents for tailoring in Shadowlands",
         title = "Tailoring",
         items = {
-            [172439] = true,	-- Enchanted Lightless Silk
-            [173202] = true,	-- Shrouded Cloth
-            [173204] = true,	-- Lightless Silk
-        },
+            -- ID    = true,    --Item name
+            [172439] = true, -- Enchanted Lightless Silk
+            [173202] = true, -- Shrouded Cloth
+            [173204] = true -- Lightless Silk
+        }
     },
     ["Vendor_Reagents"] = {
         uiName = "Shadowlands Vendor Reagents",
@@ -47,7 +48,7 @@ db.Filters = {
             [183942] = true, -- Novice Mark II
             [185960] = true -- Vestige of Origins
         }
-    },
+    }
 }
 
 -- now that db is populated lets pass it on.
