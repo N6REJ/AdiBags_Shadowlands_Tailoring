@@ -12,10 +12,10 @@ db.desc = "Tailoring reagents for Shadowlands"
 
 -- Filter info
 db.Filters = {
-    ["Tailoring"] = {
+    ["Cloth"] = {
         uiName = "Shadowlands Tailoring",
         uiDesc = "Reagents for tailoring in Shadowlands",
-        title = "Tailoring",
+        title = "Cloth",
         items = {
             -- ID    = true,    --Item name
             [172439] = true, -- Enchanted Lightless Silk
@@ -31,12 +31,10 @@ db.Filters = {
             -- ID    = true,    --Item name
             [177062] = true, -- Penumbra Thread
             [178787] = true, -- Orboreal shards
-            [177061] = true, -- Twilight Bark
-            [183955] = true -- Curing Salt
         }
     },
     ["Crafted_Reagents"] = {
-        uiName = "Shadowlands crafted reagents",
+        uiName = "Shadowlands Crafted Reagents",
         uiDesc = "Reagents made by crafting in Shadowlands",
         title = "Crafted Reagents",
         items = {
