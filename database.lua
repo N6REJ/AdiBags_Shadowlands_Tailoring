@@ -23,10 +23,10 @@ db.Filters = {
             [173204] = true -- Lightless Silk
         }
     },
-    ["Vendor_Reagents"] = {
-        uiName = "Shadowlands Vendor Reagents",
-        uiDesc = "Reagents from vendors used in Shadowlands",
-        title = "Vendor Reagents",
+    ["Tailoring_Reagents"] = {
+        uiName = "Shadowlands Tailoring Reagents",
+        uiDesc = "Reagents from Tailorings used in Shadowlands",
+        title = "Tailoring Reagents",
         items = {
             -- ID    = true,    --Item name
             [177062] = true, -- Penumbra Thread
