@@ -12,6 +12,11 @@
 
 sorts Tailoring reagents into their own categories
 
+"Cloth" - like Silk & Shrouded cloth
+
+"Tailoring Reagents" - Things from vendor
+
+"Crafted Reagents" - The various crafters marks & vestige of origin
 
 ![settings](https://user-images.githubusercontent.com/1850089/139585471-e1c52878-0c36-494b-820c-d732315b60c5.png))
 
