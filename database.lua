@@ -20,7 +20,8 @@ db.Filters = {
             -- ID    = true,    --Item name
             [172439] = true, -- Enchanted Lightless Silk
             [173202] = true, -- Shrouded Cloth
-            [173204] = true -- Lightless Silk
+            [173204] = true, -- Lightless Silk
+            [187703] = true -- Silken Protofiber
         }
     },
     ["Tailoring_Reagents"] = {
@@ -31,6 +32,7 @@ db.Filters = {
             -- ID    = true,    --Item name
             [177062] = true, -- Penumbra Thread
             [178787] = true, -- Orboreal shards
+            [187701] = true  -- Protogenic Pelt
         }
     },
     ["Crafted_Reagents"] = {
@@ -44,7 +46,11 @@ db.Filters = {
             [173382] = true, -- Crafter's Mark II
             [173381] = true, -- Crafter's Mark I
             [183942] = true, -- Novice Mark II
-            [185960] = true -- Vestige of Origins
+            [185960] = true, -- Vestige of Origins
+            [359703] = true, -- Vestige of the Eternal
+            [187707] = true, -- Progenitor Essentia
+            [359670] = true, -- Crafter's Mark of the First Ones
+            [359661] = true -- Crafter's Mark IV
         }
     }
 }
