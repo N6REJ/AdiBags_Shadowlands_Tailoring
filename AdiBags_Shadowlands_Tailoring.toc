@@ -1,9 +1,10 @@
-## Interface: 90200
+## Interface: 90205
 ## Title: AdiBags - Shadowlands Tailoring
 ## Version: @project-version@
 ## Author: BearLeeAble
 ## X-License: MIT
 ## X-Curse-Project-ID: 446531
+## X-Wago-ID: 7x619p61
 ## DefaultState: enabled
 ## Dependencies: AdiBags
 
