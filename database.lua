@@ -18,7 +18,7 @@ db.desc = "Tailoring reagents for " .. Expansion
 -- Filter info
 db.Filters = {
     ["Cloth"] = {
-        uiName = "Bears Tailoring",
+        uiName = Expansion .. " Tailoring",
         uiDesc = "Reagents for tailoring in " .. Expansion,
         title = "Cloth",
         items = {
@@ -30,18 +30,17 @@ db.Filters = {
         }
     },
     ["Tailoring_Reagents"] = {
-        uiName = "Bears Tailoring Reagents",
-        uiDesc = "Reagents from Tailorings used in " .. Expansion,
+        uiName = Expansion .. " Tailoring Reagents",
+        uiDesc = "Reagents for Tailoring used in " .. Expansion,
         title = "Tailoring Reagents",
         items = {
             -- ID    = true,    --Item name
             [177062] = true, -- Penumbra Thread
             [178787] = true, -- Orboreal shards
-            [187701] = true  -- Protogenic Pelt
         }
     },
     ["Crafted_Reagents"] = {
-        uiName = "Bears Crafted Reagents",
+        uiName = Expansion .. " Crafted Reagents",
         uiDesc = "Reagents made by crafting in " .. Expansion,
         title = "Crafted Reagents",
         items = {
