@@ -1,4 +1,4 @@
--- AdiBags_Bears_Tailoring - Database
+-- AdiBags Bears Tailoring - Database
 -- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 ---@type
@@ -6,20 +6,20 @@
 local addonName, addonTable = ...;
 
 -- Get locals name
-local L = addonTable.locales;
-local Expansion = L["Shadowlands"]
+local E = addonTable.expansion;
+local Expansion = E["Shadowlands"]
 
 -- Create addon table
 local db = {}
 
-db.name = "Bears Tailoring"
+db.name = Expansion .. " Tailoring"
 db.desc = "Tailoring reagents for " .. Expansion
 
 -- Filter info
 db.Filters = {
     ["Cloth"] = {
-        uiName = Expansion .. " Tailoring",
-        uiDesc = "Reagents for tailoring in " .. Expansion,
+        uiName = Expansion .. " Tailoring cloth",
+        uiDesc = "Cloth for tailoring in " .. Expansion,
         title = "Cloth",
         items = {
             -- ID    = true,    --Item name
