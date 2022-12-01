@@ -1,4 +1,4 @@
--- AdiBags Bears Ultimate - Database
+-- AdiBags Bears Tailoring - Database
 -- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 ---@type
@@ -12,7 +12,7 @@ local Expansion = E["Dragonflight"]
 -- Create addon table
 local db = {}
 
-db.name = "Bears " .. Expansion .. " Ultimate"
+db.name = "Bears " .. Expansion .. " Tailoring"
 db.desc = "Items & Reagents found in " .. Expansion
 
 -- Filter info
@@ -24,26 +24,56 @@ db.Filters = {
 		title = "Cloth",
 		items = {
 			-- ID  = true,		--Item name
-			[193050] = true,    -- Tattered Wildercloth
-			[193922] = true,    -- Wildercloth
+			[193050] = true, -- Tattered Wildercloth 1
+			[193922] = true, -- Wildercloth
+			[193053] = true, -- Contoured Fowlfeather
+			[193924] = true, -- Frostbitten Wildercloth
+			[193923] = true, -- Decayed Wildercloth
+			[193925] = true, -- Singed Wildercloth
+
 		}
 	},
 	["Crafted_Reagents"] = {
 		uiName = Expansion .. " Crafted Reagents",
 		uiDesc = "Assorted crafted reagents used in " .. Expansion,
-		title = "Crafted Reagents",
+		title = "Crafted",
 		items = {
-			-- ID  = true,		--Item name
-			[191511] = true,    -- Stable Fluidic Draconium 1
-			[191512] = true,    -- Stable Fluidic Draconium 2
-			[191513] = true,    -- Stable Fluidic Draconium 3
-			[190455] = true,    -- Concentrated Primal Focus
-			[198046] = true,    -- Concentrated Primal Infusion
-			[197921] = true,    -- Primal Infusion
-			[194728] = true,    -- Fiery Spirit 1
-			[194727] = true,    -- Fiery Spirit 2
-			[194729] = true,    -- Fiery Spirit 3
-			[197757] = true,    -- Assorted Exotic Spices
+			-- ID  = true,		-- Item name
+			[193398] = true, -- Azureweave Bolt
+			[193395] = true, -- Chronocloth Bolt 1
+			[193396] = true, -- Chronocloth Bolt 2
+			[193397] = true, -- Chronocloth Bolt 3
+			[192095] = true, -- Spool of Wilderthread 1
+			[192096] = true, -- Spool of Wilderthread 2
+			[192097] = true, -- Spool of Wilderthread 3
+			[193929] = true, -- Vibrant Wildercloth Bolt 1
+			[193930] = true, -- Vibrant Wildercloth Bolt 2
+			[193931] = true, -- Vibrant Wildercloth Bolt 3
+			[193926] = true, -- Wildercloth Bolt 1
+			[193927] = true, -- Wildercloth Bolt 2
+			[193928] = true, -- Wildercloth Bolt 3
+			[193932] = true, -- Infurious Wildercloth Bolt 1
+			[193933] = true, -- Infurious Wildercloth Bolt 2
+			[193934] = true, -- Infurious Wildercloth Bolt 3
+		}
+	},
+	["Herb"] = {
+		uiName = Expansion .. " Herbs",
+		uiDesc = "Herbs found in " .. Expansion,
+		title = "Herbs",
+		items = {-- ID,	--Item name
+			[191460] = true, -- Hochenblume 1
+			[191461] = true, -- Hochenblume 2
+			[191462] = true, -- Hochenblume 3
+		}
+	},
+	["Enchanting"] = {
+		uiName = Expansion .. " Enchanting",
+		uiDesc = "Enchanting reagent found in " .. Expansion,
+		title = "Enchanting",
+		items = {-- ID,	--Item name
+			[194123] = true, -- Chromatic Dust
+			[194124] = true, -- Vibrant Shard
 		}
 	},
 	["Zone_Reagents"] = {
@@ -52,10 +82,10 @@ db.Filters = {
 		title = "DF Mats",
 		items = {
 			-- ID  = true,		--Item name
-			[190454] = true,    -- Primal Chaos
-			[202122] = true,    -- Primal Chaos Cluster
-			[200686] = true,    -- Primal Focus
-			[190456] = true,    -- Artisan's Mettle
+			[190454] = true, -- Primal Chaos
+			[202122] = true, -- Primal Chaos Cluster
+			[200686] = true, -- Primal Focus
+			[190456] = true, -- Artisan's Mettle
 		}
 	}
 }
