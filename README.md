@@ -10,13 +10,7 @@
 [![curse](https://img.shields.io/badge/Curseforge_Project_ID:-446531-purple)](https://www.curseforge.com/wow/addons/adibags_shadowlands_Tailoring)
 [![requires](https://img.shields.io/badge/Requires-AdiBags-brown)](https://www.curseforge.com/wow/addons/adibags)
 
-sorts Tailoring reagents into their own categories
-
-"Cloth" - like Silk & Shrouded cloth
-
-"Tailoring Reagents" - Things from vendor
-
-"Crafted Reagents" - The various crafters marks & vestige of origin
+Sorts Tailoring reagents into their own categories
 
 ![settings](https://user-images.githubusercontent.com/1850089/139585471-e1c52878-0c36-494b-820c-d732315b60c5.png))
 
