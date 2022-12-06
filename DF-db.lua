@@ -86,6 +86,10 @@ db.Filters = {
 			[202122] = true, -- Primal Chaos Cluster
 			[200686] = true, -- Primal Focus
 			[190456] = true, -- Artisan's Mettle
+			[201405] = true, -- Tuft of Primal Wool -- Used by many professions
+			[201406] = true, -- Glowing Titan Orb   -- Used by many professions
+			[190453] = true, -- Spark of Ingenuity
+			[199197] = true, -- Bottled Essence
 		}
 	}
 }
