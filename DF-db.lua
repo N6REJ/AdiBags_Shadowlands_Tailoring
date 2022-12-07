@@ -74,6 +74,7 @@ db.Filters = {
 		items = {-- ID,	--Item name
 			[194123] = true, -- Chromatic Dust
 			[194124] = true, -- Vibrant Shard
+			[201401] = true, -- Iridescent Plume
 		}
 	},
 	["Zone_Reagents"] = {
