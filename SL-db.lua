@@ -18,7 +18,7 @@ db.desc = "Tailoring reagents for " .. Expansion
 -- Filter info
 db.Filters = {
     ["Cloth"] = {
-        uiName = Expansion .. " Tailoring cloth",
+        uiName = "Bears " .. Expansion .. " Tailoring cloth",
         uiDesc = "Cloth for tailoring in " .. Expansion,
         title = "Cloth",
         items = {
@@ -30,7 +30,7 @@ db.Filters = {
         }
     },
     ["Tailoring_Reagents"] = {
-        uiName = Expansion .. " Tailoring Reagents",
+        uiName = "Bears " .. Expansion .. " Tailoring Reagents",
         uiDesc = "Reagents for Tailoring used in " .. Expansion,
         title = "Tailoring Reagents",
         items = {
@@ -40,7 +40,7 @@ db.Filters = {
         }
     },
     ["Crafted_Reagents"] = {
-        uiName = Expansion .. " Crafted Reagents",
+        uiName = "Bears " .. Expansion .. " Crafted Reagents",
         uiDesc = "Reagents made by crafting in " .. Expansion,
         title = "Crafted Reagents",
         items = {
