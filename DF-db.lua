@@ -76,6 +76,15 @@ db.Filters = {
 			[194124] = true, -- Vibrant Shard
 			[201401] = true, -- Iridescent Plume
 		}
+	},
+	["Artisan"] = {
+		uiName = "Bears " .. Expansion .. " Artisan Tailoring items",
+		uiDesc = "Artisan items found in " .. Expansion,
+		title = "Artisan",
+		items = {
+			-- ID,	--Item name
+			[203406] = true, -- Torn Morqut Kite
+		}
 	}
 }
 
