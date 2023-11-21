@@ -85,6 +85,17 @@ db.Filters = {
 			-- ID,	--Item name
 			[203406] = true, -- Torn Morqut Kite
 		}
+	},
+	["Optional_Reagents"] = {
+		uiName = "Bears " .. Expansion .. " Optional Reagents",
+		uiDesc = "Assorted Optional reagents used in " .. Expansion,
+		title = "Optional",
+		items = {
+			-- ID  = true,		--Item name
+			[210671] = true, -- Verdant Tether 1
+			[210672] = true, -- Verdant Tether 2
+			[210673] = true, -- Verdant Tether 3
+		}
 	}
 }
 
